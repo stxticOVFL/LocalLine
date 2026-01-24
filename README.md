@@ -1,4 +1,4 @@
-# SuperPotato
+# LocalLine
 ### A helpful practice tool for Neon White in the style of The Local's ghost line! 
 #### *Commisioned by connie; thank you!*
 
