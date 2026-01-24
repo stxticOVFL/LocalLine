@@ -19,7 +19,7 @@ namespace ConnieLocal.Modules
 
         static void Setup()
         {
-            ConnieLocal.Settings.enabled.SetupForModule(Activate, (_, after) => after);
+            active = ConnieLocal.Settings.enabled.SetupForModule(Activate, (_, after) => after);
             ConnieLocal.Settings.disappear.SetupForModule(Activate, (_, after) => after || ConnieLocal.Settings.enabled.Value);
 
             ConnieLocal.Settings.lineColor.OnEntryValueChanged.Subscribe((_, _) => Line.i?.Configure());
