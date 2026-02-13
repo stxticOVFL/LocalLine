@@ -1,8 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-  </Configurations>
-  <Project Path="ConnieLocal.csproj" Id="0101bb4b-7d27-42ad-a771-0b1515665df2">
-    <Platform Project="x64" />
-  </Project>
-</Solution>

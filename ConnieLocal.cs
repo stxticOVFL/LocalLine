@@ -1,12 +1,6 @@
 using ConnieLocal.Objects;
 using MelonLoader;
 using MelonLoader.Preferences;
-using NeonLite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace ConnieLocal
@@ -99,11 +93,12 @@ namespace ConnieLocal
                 fadeStrong = NeonLite.Settings.Add(h, "", "fadeStrong", "Fade Strength", null, 1.2f, new ValueRange<float>(0.1f, 10f));
             }
 
-            static void ToggleAC(bool on) {
+            static void ToggleAC(bool on)
+            {
                 if (on)
-                    NeonLite.Modules.Anticheat.Register(ConnieLocal.instance.MelonAssembly);
+                    NeonLite.Modules.Anticheat.Register(instance.MelonAssembly);
                 else
-                    NeonLite.Modules.Anticheat.Unregister(ConnieLocal.instance.MelonAssembly);
+                    NeonLite.Modules.Anticheat.Unregister(instance.MelonAssembly);
             }
         }
     }

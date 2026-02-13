@@ -1,14 +1,7 @@
 ﻿using ConnieLocal.Objects;
 using NeonLite;
 using NeonLite.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
-using static ConnieLocal.ConnieLocal;
 
 namespace ConnieLocal.Modules
 {
